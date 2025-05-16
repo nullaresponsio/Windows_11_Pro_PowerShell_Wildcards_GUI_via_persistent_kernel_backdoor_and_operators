@@ -1,2 +1,6 @@
 # Windows_11_Pro_PowerShell_Wildcards_GUI_via_persistent_kernel_backdoor_and_operators
 // # KERNEL ONLY; user-mode not able to show corrupted eg Powershell UI not CLI on Windows 11 Pro!! Found it!! //   • Kernel-mode rootkits filter I/O at the file-system driver layer so //     Explorer never even “sees” certain files or directories.:contentReference[oaicite:3]{index=3} //
+
+# Summary
+
+Summing up: Windows does not natively mix advanced PowerShell wildcards into GUI components – those remain limited to basic */? matching. However, tools like PowerRename or admin centers show that it’s possible to combine GUI ease-of-use with CLI pattern power in specific scenarios. On the flip side, attackers have found many ways to blend into or replace Windows GUI components to achieve persistence or stealth, from shell extensions and registry tweaks to hijacking accessibility features and screensavers. Each of these techniques takes advantage of the trust and automatic behaviors of Windows’ GUI elements, effectively turning the operating system’s own interface mechanisms into backdoor or persistence channels. It’s a reminder that even the user interface can be both a powerful tool and a potential attack surface in Windows.
